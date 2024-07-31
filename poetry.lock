@@ -75,8 +75,6 @@ pycodestyle = ">=2.12.0,<2.13.0"
 pyflakes = ">=3.2.0,<3.3.0"
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "h11"
 version = "0.14.0"
 description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
@@ -144,7 +142,6 @@ files = [
 ]
 
 [[package]]
->>>>>>> e413c6540467b80f54b0dac8ffa09e2d1ac0006b
 name = "iniconfig"
 version = "2.0.0"
 description = "brain-dead simple config-ini parsing"
@@ -314,8 +311,6 @@ tomli = {version = ">=1", markers = "python_version < \"3.11\""}
 dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "python-telegram-bot"
 version = "21.4"
 description = "We have made you a wrapper you can't refuse"
@@ -352,7 +347,7 @@ files = [
 ]
 
 [[package]]
->>>>>>> e413c6540467b80f54b0dac8ffa09e2d1ac0006b
+
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -363,12 +358,12 @@ files = [
     {file = "tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
 ]
 
-<<<<<<< HEAD
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
 content-hash = "19a94d2b586434d99f3d5f217449ef1ab18af08d1788217ecd8f6f215f185209"
-=======
+
 [[package]]
 name = "typing-extensions"
 version = "4.12.2"
@@ -384,4 +379,4 @@ files = [
 lock-version = "2.0"
 python-versions = "^3.10"
 content-hash = "586a944e6cd9c4d34663b6078a2266a1e52ea7488486c264ef430c89c7960a3e"
->>>>>>> e413c6540467b80f54b0dac8ffa09e2d1ac0006b
+
