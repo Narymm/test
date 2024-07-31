@@ -3,4 +3,4 @@ install:
 		poetry install
 
 start:
-		poetry run python trying.py
+		poetry run python test/trying.py
