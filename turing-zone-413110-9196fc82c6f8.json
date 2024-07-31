@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "turing-zone-413110",
+  "private_key_id": "9196fc82c6f8033c0b93aed7653755b021cd272b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5n+2WS9d60BFJ\ndc8CavO9l26nT+Ro+1Sm9YRy9ryWUxcFTU26H5yszf47JrnO2g7k54OX3FJQnBMg\nTGcdvCvcXN7Mti2uQn5esbTtb+c+5RTwDpiWd/m5z0sL12R406tj4iQLbG5Uh9Cz\nYMAi6v1dJcFHhFxXa2FzaFzzp3A+lfhn2rkMQmPcH9/UPOdcOPn/0JLN59R6DxHP\n4xKFkDuGSaI0tTWnQ18IszUsTqtioWQ9ZGkuo/JmOWd4kgNmrB/5zC0DFDcfGayb\nhoUDw/p9TwXYNwpPdMBRfuoS39jVXPz28FHjgsFPQYEAcrIeNQ88eYYXQCoLrrAS\nBmmC0bZvAgMBAAECggEALqc+6Ajswe28gomM+08VLp/6TCvcvPP6HTJU1S4lTOTa\nQtdggziBwL7POF+t0IrmtmpnnQnfWGo5tmLtgcAzB+IBj1L0XTlSGIuybQC0jo61\n+fW5LQw/ZA9xDatXkbSlfWevZn2cpzsxXXwiHkSQZFJiZw6hxMj0x7RBtG1vXRMX\ne3BlJHTl4SshtKzyDFTc45AapNT6y/SPa/cSUhDKssJPNnw5xllw0+NNYvMvU0xZ\nPnIZ4Xj0pDN+B1Scs5pY9oHwnUqlpoYr6aYWXwTU9lzKC77FFLuygxTor3wJooCs\n+eu1iA3LygZRjjdWUI1H3eRL3kdUwEeUZLWFzusNrQKBgQDod/geLzo4VqPdKItf\nFMrdeC9VjfspSdnCCoIC7HgYEfcjMmlcYbZlSALdOlD5iubegLFtTsBhzVsiqhyI\nN5R3HOCzsfvAbRBCNo4UA82CkY8MkJdtg4IA0laXtpeU3K5kn4PGLosWy6P7L0q/\nebULy4mIKm9uq2F1figLkWSZ9QKBgQDMahQI9RsYTX6Dv/0t9c4QdmzKIZGtE+Kb\nVfdo5nPs6LFdawrjC+Lzf+xex6NQTySQlq+TOqocsLUkHdxcZlH05YwRRGy9tEUT\nFQ+xIdtRHgY7ltQPyLoKDB3rg1IALzLRpq9wcTEEuv1ib2QKXIQMQDP38q/oIqos\nz4kgackcUwKBgE3m9iTXWsFKd3tDfQEN7LWu8t3OyJ4be3fFIbBtIgme65zF5fzp\nWcAzE5KjWkNlwtxJcCvbOikMMkA5lXoodf48lShiuqTPZ6VottAKPjJFKRTi13wB\nl+1Cj3Yj4EQod+CMfBJLwpyO/ZLNVFU6Keub96jD37fMgspmznCh9n6JAoGBAJlO\n9bfCHJAdjsVBOKE/uUyfhPgUNS2ZvFrEHsqODGOiIWPu5DtkrtHxH1X2ZIXW1ZWb\nbhL97JeX8EMmIh8qnk0N2/8XUnb0vNmS8jHnMpWj7wjCFknAQcdHTylTVCzPOU4D\ntZCfVCQ4GdG5uU4MFP0bKd7MJSH03ay9+hpVPIABAoGBALuVE4FzYNTXvbKhn693\nltON3lzwgg74vKidEVFGXalq/gKaez5UY+bDbR0M72h9aUGZ8zkRS67pMEGD/uyl\nYyCcCMWFaeTb+PMd3Xn2zhht1xZO0LCR4k/7cCpB/JRgIhPHvagxMUOqRD978+PB\nSZn2XV/Mj5uxxj6/kjAhtPqG\n-----END PRIVATE KEY-----\n",
+  "client_email": "chbot-51@turing-zone-413110.iam.gserviceaccount.com",
+  "client_id": "111762911337754883203",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chbot-51%40turing-zone-413110.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
