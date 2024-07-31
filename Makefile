@@ -1,6 +1,6 @@
 install:
-		pip install poetry && \
-		poetry install
+	pip install poetry && \
+	poetry install
 
 start:
-		poetry run python trying.py
+	poetry run python trying.py
