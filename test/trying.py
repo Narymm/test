@@ -6,18 +6,9 @@ from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 from dotenv import load_dotenv
 import os
-from flask import Flask
+from flask import Flask, request
 
-#Прослушивание порта на render.com
 app = Flask(__name__)
-
-@app.route('/')
-def hello():
-    return "Hello, World!"
-
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 10000))
-    app.run(host='0.0.0.0', port=port)
 
 # Включаем логирование
 logging.basicConfig(
@@ -272,5 +263,11 @@ def main() -> None:
 
     application.run_polling()
 
+# Flask endpoint для работы с Render.com
+@app.route('/')
+def index():
+    return 'Telegram bot is running!'
+
 if __name__ == '__main__':
     main()
+    app.run(host='0.0.0.0', port=8080)
