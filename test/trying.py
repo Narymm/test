@@ -1,9 +1,9 @@
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ConversationHandler, CallbackContext, MessageHandler, filters
+from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ConversationHandler, CallbackContext, MessageHandler, filters, ApplicationBuilder, Updater, JobQueue, ContextTypes
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-from datetime import datetime
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import os
 
@@ -243,8 +243,22 @@ async def cancel(update: Update, context: CallbackContext) -> None:
 async def error_handler(update: Update, context: CallbackContext) -> None:
     logger.error(f'Update {update} caused error {context.error}')
 
+async def send_ping(context: ContextTypes.DEFAULT_TYPE):
+    chat_id = context.job.data
+    await context.bot.send_message(chat_id="504662108", text="Ping!")
+
 def main() -> None:
-    application = Application.builder().token(bot_token).build()
+    application = ApplicationBuilder().token(bot_token).build()
+
+    # Получаем JobQueue
+    job_queue = application.job_queue
+
+    if job_queue is None:
+        print("JobQueue не инициализирован!")
+        return
+
+    job_queue.run_repeating(send_ping, interval=timedelta(minutes=1), first=timedelta(seconds=10), name="ping_job", data="chat_id")
+
 
     # Определение обработчика разговора с состояниями
     conv_handler = ConversationHandler(
@@ -265,6 +279,6 @@ def main() -> None:
     application.add_error_handler(error_handler)
 
     application.run_polling()
-
+ 
 if __name__ == '__main__':
     main()
