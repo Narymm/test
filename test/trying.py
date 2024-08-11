@@ -257,7 +257,7 @@ def main() -> None:
         print("JobQueue не инициализирован!")
         return
 
-    job_queue.run_repeating(send_ping, interval=timedelta(minutes=1), first=timedelta(seconds=10), name="ping_job", data="chat_id")
+    job_queue.run_repeating(send_ping, interval=timedelta(minutes=240), first=timedelta(seconds=10), name="ping_job", data="chat_id")
 
 
     # Определение обработчика разговора с состояниями
